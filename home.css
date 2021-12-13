@@ -60,12 +60,12 @@
 
 .music-player{
     height: 10vh;
-    background-color: rgb(45, 95, 139);
+    
  
 }
 .logo{
-    height: 80px;
-    padding: 20px;
+    height: 40px;
+    margin: 20px;
 }
 .playlist-card{
    display: flex;
@@ -178,5 +178,81 @@
 .songs-text{
     font-size: 15px;
     font-weight: 400;
+
+}
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+
+}
+.player-content-1{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.palyer-image{
+    padding-left: 10px;
+    height: 60px;
+}
+.player-text h3 {
+padding-left: 10px;
+font-size: 20px;
+color: white;
+}
+
+.player-text h4{
+font-size:10px;
+opacity: 0.5;
+padding-left: 10px;
+color: rgb(221, 216, 216);
+font-weight: 300;
+
+
+}
+.player-icons{
+    padding-left: 20px;
+}
+.player-content-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+}
+
+.playerslider{
+    display: flex;
+    align-items: center;
+
+
+}
+.timer{
+    padding-inline: 5px;
+    color: white;
+    font-size: 15px
+    ;
+}
+.timeline{
+    width: 500px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+.player-content-3{
+    display: flex;
+    align-items: center;
+    padding-inline-end: 20px;
+}
+
+h2:hover {
+    color: #1ed761;
+    cursor: pointer;
+
+}
+h3:hover {
+    color: #1ed761;
+    cursor: pointer;
 
 }
